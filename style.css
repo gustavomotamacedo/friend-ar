@@ -161,14 +161,14 @@ div.galeria{
     display: inline-block;
     border: 5px black solid;
     border-radius: 10px;
-    width: 15%;
+    width: 25%;
 }
 
 img.galeria {
 	display: inline-block;
     border: 5px black solid;
     border-radius: 10px;
-    width: 50%;
+    width: 20%;
 }
 
 footer.rodape{
