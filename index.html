@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friend Ar Condicionado</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/favicon-16x16.png" type="image/x-icon">
+</head>
+<body>
+    <header id="cabeca">
+        <h1 id="empresa-nome">
+            FRIEND AR CONDICIONADO
+        </h1>
+        <p id="slogan">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+    </header>
+    <main>
+        <section id="servicos">
+            
+        </section>
+        <script>
+            var servicos = document.body.querySelector("section#servicos")
+            if(window.innerWidth < 500){
+                servicos.innerHTML = `<div id="caixinha-das-caixas">
+                <div class="caixa">
+                    <h1>TITULO</h1>
+                    <img src="imagens/mostruario01.jpg" alt="">
+                </div>
+                <div class="caixa">
+                    <h1>TITULO</h1>
+                    <img src="imagens/mostruario02.jpg" alt="">
+                </div>
+                <div class="caixa">
+                    <h1>TITULO</h1>
+                    <img src="imagens/mostruario03.jpg" alt="">
+                </div>
+                <div class="caixa">
+                    <h1>TITULO</h1>
+                    <img src="imagens/mostruario04.jpg" alt="">
+                </div>
+            </div>`
+            }else{
+                servicos.innerHTML = `<div id="caixa-das-caixas">
+                <div class="caixa">
+                    <h1>TITULO</h1>
+                    <img src="imagens/mostruario01.jpg" alt="">
+                </div>
+                <div class="caixa">
+                    <h1>TITULO</h1>
+                    <img src="imagens/mostruario02.jpg" alt="">
+                </div>
+                <div class="caixa">
+                    <h1>TITULO</h1>
+                    <img src="imagens/mostruario03.jpg" alt="">
+                </div>
+                <div class="caixa">
+                    <h1>TITULO</h1>
+                    <img src="imagens/mostruario04.jpg" alt="">
+                </div>
+            </div>`
+            }
+        </script>
+        <section class="contato">
+            
+        </section>
+        <script>
+            var contatos = window.document.body.querySelector("section.contato")
+            var cabeca = window.document.body.querySelector("header#cabeca")
+            if(window.innerWidth < 500){
+                cabeca.innerHTML = ` <h1 id="empresa-nome">
+            FRIEND AR CONDICIONADO
+        </h1>`
+                contatos.innerHTML = `<h1 class="contatos">CONTATOS</h1>
+            <div class="contatos-phone">
+                <a href="https://criarmeulink.com.br/u/1640800464" target="_blank">
+                    <div class="caixa3">
+                        <img class="contatos" src="imagens/email-143.png" alt="">
+                    </div>
+                    <div class="caixaTexto">
+                        <p class="contatos-phone">friend.arcondicionado@gmail.com</p>
+                    </div>
+                </a>
+                <a href="https://www.instagram.com/friend.arcondicionado/" target="_blank">
+                    <div class="caixa3">
+                        <img class="contatos" src="imagens/insta-143.png" alt="">
+                    </div>
+                    <div class="caixaTexto">
+                        <p class="contatos-phone">@friend.arcondicionado</p>
+                    </div>
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=5511986869414&text=Ol%C3%A1!" target="_blank">
+                    <div class="caixa3">
+                        <img class="contatos" src="imagens/wpp-143.png" alt="">
+                    </div>
+                    <div class="caixaTexto">
+                        <p class="contatos-phone">(11) 98686-9414</p>
+                    </div>
+                </a>
+                <a href="https://www.facebook.com/friend.arcondicionado" target="_blank">
+                    <div class="caixa3">
+                        <img class="contatos" src="imagens/face-143.png" alt="">
+                    </div>
+                    <div class="caixaTexto">
+                        <p class="contatos-phone">@friend.arcondicionado</p>
+                    </div>
+                </a>
+                <a href="https://criarmeulink.com.br/u/1640800070" target="_blank">
+                    <div class="caixa3">
+                        <img class="contatos" src="imagens/tel-143.png" alt="">
+                    </div>
+                    <div class="caixaTexto">
+                        <p class="contatos-phone">(11) 93349-9554</p>
+                    </div>
+                </a>
+            </div>`
+            }else{
+                contatos.innerHTML = `<h1 class="contatos">CONTATOS</h1>
+            <div class="contatos">
+                <a href="https://criarmeulink.com.br/u/1640800464" target="_blank">
+                    <div class="caixa2">
+                        <img src="imagens/email-143.png" alt="">
+                    </div>
+                </a>
+                <a href="https://www.instagram.com/friend.arcondicionado/" target="_blank">
+                    <div class="caixa2">
+                        <img src="imagens/insta-143.png" alt="">
+                    </div>
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=5511986869414&text=Ol%C3%A1!" target="_blank">
+                    <div class="caixa2">
+                        <img src="imagens/wpp-143.png" alt="">
+                    </div>
+                </a>
+                <a href="https://www.facebook.com/friend.arcondicionado" target="_blank">
+                    <div class="caixa2">
+                        <img src="imagens/face-143.png" alt="">
+                    </div>
+                </a>
+                <a href="https://criarmeulink.com.br/u/1640800070" target="_blank">
+                    <div class="caixa2">
+                        <img src="imagens/tel-143.png" alt="">
+                    </div>
+                </a>
+            </div>`
+            }
+        </script>
+        <section class="galeria">
+            <h1 class="galeria">GALERIA</h1>
+            <div class="galeria">
+                <img src="imagens/mostruario04.jpg" alt="TESTE">
+                <img src="imagens/mostruario04.jpg" alt="TESTE">
+                <img src="imagens/mostruario04.jpg" alt="TESTE">
+            </div>
+            <div class="galeria">
+                <img src="imagens/mostruario04.jpg" alt="TESTE">
+                <img src="imagens/mostruario04.jpg" alt="TESTE">
+                <img src="imagens/mostruario04.jpg" alt="TESTE">
+            </div>
+            <div class="galeria">
+                <img src="imagens/mostruario04.jpg" alt="TESTE">
+                <img src="imagens/mostruario04.jpg" alt="TESTE">
+                <img src="imagens/mostruario04.jpg" alt="TESTE">
+            </div>
+        </section>
+        <script>
+            var galeriaDIV = document.body.querySelector("div.galeria")
+            var galeriaSECTION = document.body.querySelector("section.galeria")
+            if(window.innerWidth < 500){
+                galeriaSECTION.innerHTML = `
+                <h1 class="galeria">GALERIA</h1>
+            <div class="galeria" style="width: 360px;">
+                <img src="imagens/mostruario04.jpg" alt="TESTE">
+                <img src="imagens/mostruario04.jpg" alt="TESTE">
+                <img src="imagens/mostruario04.jpg" alt="TESTE">
+            </div>
+            <div class="galeria" style="width: 360px;">
+                <img src="imagens/mostruario04.jpg" alt="TESTE">
+                <img src="imagens/mostruario04.jpg" alt="TESTE">
+                <img src="imagens/mostruario04.jpg" alt="TESTE">
+            </div>
+            <div class="galeria" style="width: 360px;">
+                <img src="imagens/mostruario04.jpg" alt="TESTE">
+                <img src="imagens/mostruario04.jpg" alt="TESTE">
+                <img src="imagens/mostruario04.jpg" alt="TESTE">
+            </div>`
+            }
+            </script>
+    </main>
+    <footer class="rodape">
+        <div class="rodape">Feito por <a href="https://www.instagram.com/mocce0_" hreflang="pt-br" rel="external" target="_blank">Gustavo Macedo</a> para <a href="#" hreflang="pt-br" rel="external" target="_blank">Friend Ar Condicionado</a>.</div>
+    </footer>
+</body>
+</html>
