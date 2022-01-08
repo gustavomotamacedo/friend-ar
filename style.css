@@ -154,6 +154,7 @@ div.galeria{
 .galeria img{
     display: inline-block;
     border: 5px black solid;
+    border-radius: 10px;
     width: 25%;
 }
 
