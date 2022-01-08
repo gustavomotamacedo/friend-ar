@@ -164,6 +164,13 @@ div.galeria{
     width: 25%;
 }
 
+img.galeria {
+	display: inline-block;
+    border: 5px black solid;
+    border-radius: 10px;
+    width: 50%;
+}
+
 footer.rodape{
     display: block;
     text-align: center;
