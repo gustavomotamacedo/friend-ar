@@ -130,14 +130,14 @@ p.contatos-phone{
 
 .caixa3 img{
     float: none;
-    max-width: 100%;
+    max-width: 90%;
     min-width: 25%;
 }
 
 .contatos img{
     float: none;
     display: inline-block;
-    max-width: 100%;
+    max-width: 90%;
     min-width: 25%;
 }
 
