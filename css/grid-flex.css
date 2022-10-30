@@ -107,19 +107,22 @@ section h2
 
 #galeria
 {
-    min-width: 200px;
-    margin: 21px auto;
+    display: block;
+    border: 1px solid black;
+    max-width: 500px;
+    margin: auto;
     padding: 10px;
 }
 
 #galeria-container
 {
     display: grid;
+    border: 1px solid black;
     max-width: 500px;
     padding: 10px;
     grid-template-columns: repeat(3, 1fr); 
     gap: 10px;
-    justify-content: space-around;
+    justify-items: center;
 }
 
 #galeria-container img
