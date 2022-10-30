@@ -1,0 +1,167 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --cor0: #C2ECF9;
+    --cor1: #287598;
+    --cor2: #032D47;
+    --sans-serif: 'Roboto', sans-serif;
+    --display: 'Bungee', cursive;
+}
+
+body
+{
+    font-family: var(--sans-serif);
+}
+
+header
+{
+    text-align: center;
+}
+
+header h1
+{
+    font-family: var(--display);
+    font-size: 1.8rem;
+}
+
+header p
+{
+    font-size: 0.8rem;
+}
+
+main
+{
+    max-width: 600px;
+    margin: 21px auto;
+}
+
+section
+{
+    text-align: center;
+    margin-bottom: 21px;
+}
+
+section h2
+{
+    font-size: 1.75rem;
+}
+
+#servicos
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    justify-items: center;
+}
+
+.caixa
+{
+    text-align: center;
+}
+
+.caixa > h1
+{
+    margin: 10px 0px;
+    font-size: 0.85rem;
+}
+
+.caixa > img
+{
+    max-width: 175px;
+}
+
+#contatos
+{
+    text-align: center;
+}
+
+#contatos-container 
+{
+    display: flex;
+    margin: 21px 0px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#contatos-container a
+{
+    display: block;
+    max-width: max-content;
+    margin: 0px 10px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+#contatos-container img
+{
+    max-width: 50px;
+    margin: 10px auto;
+}
+
+#contatos-container p
+{
+    display: block;
+    font-size: 0.78rem;
+}
+
+#galeria
+{
+    min-width: 200px;
+    padding: 10px;
+}
+
+#galeria-container
+{
+    display: grid;
+    max-width: 500px;
+    margin: 21px auto;
+    padding: 10px;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px;
+    justify-content: space-around;
+}
+
+#galeria-container img
+{
+    max-width: 150px;
+}
+
+@media (min-width: 250px) 
+{
+    #contatos-container p { display: none;}
+    #galeria-container img { width: 100px;}
+}
+
+@media (min-width: 600px) 
+{
+    #contatos-container p { display: block;}
+    #galeria-container img { width: 180px;}
+}
+
+footer
+{
+    background-color: black;
+    color: white;
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 1px;
+}
+
+footer a
+{
+    color: var(--cor1);
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+footer a:hover
+{
+    color: rgb(223, 103, 103);
+    font-size: 0.85rem;
+}
+
+footer a:checked
+{
+    color: rgb(62, 196, 62);
+}
