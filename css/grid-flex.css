@@ -108,7 +108,6 @@ section h2
 #galeria
 {
     display: block;
-    border: 1px solid black;
     max-width: 500px;
     margin: auto;
     padding: 10px;
@@ -117,7 +116,6 @@ section h2
 #galeria-container
 {
     display: grid;
-    border: 1px solid black;
     max-width: 500px;
     padding: 10px;
     grid-template-columns: repeat(3, 1fr); 
